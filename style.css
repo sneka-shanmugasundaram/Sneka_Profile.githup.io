@@ -1,0 +1,92 @@
+#navbarNav{
+    font-size:larger;
+    color: white;
+}
+#nav{
+    background-color: #735DA5;
+}
+#contact{
+    background-color: #735DA5;
+    
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+hr{
+    color: white;
+}
+#page{
+    background-attachment: fixed;
+    color: white;
+    &::before{
+        content:"";
+        position: absolute;
+        top: 70px;
+        right: 0px;
+        left: 0px;
+        bottom: 0px;
+        background-image: url("/images/portfolio_2.jpeg");
+        background-repeat: no-repeat;
+       
+        opacity: 0.55;
+    }
+}
+#container{
+    height:fit-content;
+    width: 100%;
+    background-color: #D3C5E5;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+#sec{
+    padding-top: 80px;
+}
+body{
+    font-family: 'sans-serif';
+}
+@media screen  and (max-width:540px){
+            #sec{
+                text-align: center;
+            }
+            #modal_image{
+                height: fit-content;
+                width: 330px;
+            }
+            #id{
+                font-size: 10px;
+            }
+   
+}
+
+#doc{
+    border: 2px solid #735DA5;
+    background-color:#D3C5E5;
+    
+}
+#about{
+    background: rgb(211,159,235);
+    background: radial-gradient(circle, rgba(211,159,235,1) 0%, rgba(199,127,246,1) 0%, rgba(170,58,238,1) 50%, rgba(201,132,247,1) 93%);
+    padding: 50px;
+    color: rgb(51, 43, 43);
+    text-align: justify;
+}
+.content{
+    border: #735DA5 2px 
+}
+#card_1{
+background-color: white;
+box-shadow: #735DA5 10px 10px 5px;
+border: none;
+
+
+}
+body{
+    background-color:  #D3C5E5 ;
+}
+#button{
+    background-color: #735DA5;
+    color: white;
+   
+    
+}
